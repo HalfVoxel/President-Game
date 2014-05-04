@@ -1,8 +1,8 @@
 #include "bot.h"
 #include <vector>
 #include <map>
-#include "humanbot.h"
-#include "aronbot.h"
+#include "bots/humanbot.h"
+#include "bots/aronbot.h"
 #include <algorithm>
 #include <iostream>
 

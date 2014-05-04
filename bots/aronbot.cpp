@@ -20,16 +20,7 @@ void AronPresident::init(int players, int playerIndex, vector<int> _cards) {
 }
 
 vector<int> AronPresident::makeMove( bool newRound ) {
-	
-}
-
-bool isWild ( int v ) {
-	return v == 2 || v == 3;
-}
-
-int findValue ( const vector<int>& move ) {
-	int v = -1;
-	for ( int a : move ) if (!isPrime(v))
+	return vector<int>();
 }
 
 void AronPresident::moveCallback(int player, vector<int> move ) {
